@@ -93,9 +93,8 @@ img {
 }
 
 #home {
-	background-image: url(/images/main-bg.jpg);
-	background-color: #0bd;
-	background-blend-mode: hard-light;
+	background-image: url(/images/main-bg.jpg),linear-gradient(#c9ffdf, #ffafbd);
+	background-blend-mode: luminosity;
 	min-height: 100vh;
 }
 
@@ -103,4 +102,14 @@ img {
 	text-transform: none;
 }
 
+/* NEWS
+------------------------------- */
+#news {
+	background-image: url(/images/news-bg.jpg);
+	height: 270px;
+	margin-bottom: 40px;
+}
 
+#news .page-title {
+	text-align: center;
+}
